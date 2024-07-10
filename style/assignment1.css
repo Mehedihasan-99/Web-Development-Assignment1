@@ -27,7 +27,6 @@
     padding: 40px;
     font-family: "Azeret Mono", monospace;
     color: #0D1321;
-    border: 2px solid green;
 }
 .banner-content img {
     margin-bottom: 20px;
@@ -51,4 +50,56 @@
     font-size: 20px;
     font-weight: 600;
     
+}
+
+/* section1 why web development */
+.section1-container{
+    width: 1150px;
+    height: 1400px;
+    margin: 0 auto;
+    margin-top: 50px;
+    border-radius: 20px;
+    background-color: rgba( 13 ,19,33,0.02);
+    padding: 20px 30px;
+}
+.section1-heading{
+    width: 850px;
+    height: 110px;
+    margin: 0 auto;
+    text-align: center;
+    font-family: "Azeret Mono", monospace;
+    color: #0D1321;
+}
+.section1-body{
+    width: 950px;
+    height: 1070px;
+    margin: auto;
+    margin-bottom: 0;
+    font-family: "Azeret Mono", monospace;
+}
+.section1-body-part {
+    padding: 5%;
+    display: flex;
+    gap: 60px;
+    background-color: #FFFFFF;
+    border-radius: 15px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+.sec1-body-title {
+    font-size: 24px;
+    font-weight: 700px;
+    color: rgba(13, 19, 33, 0.70);
+}
+.sec1-body-describtion {
+    font-size: 16px;
+    font-weight: 400px;
+    color: #0D1321;
+}
+.sec1-body-btn {
+    height: 50px;
+    width: 170px;
+    font-size: 20px;
+    font-weight: 600px;
+    color: #0D1321;
 }
