@@ -7,6 +7,18 @@
   font-weight: weight;
   font-style: normal;
 }
+/* shared style */
+.title{
+    font-size: 16px;
+    font-weight: 400px;
+    color: #0d1321;
+}
+.describtion {
+    font-size: 16px;
+    font-weight: 400px ;
+    color: #0d1321;
+}
+
 
 /* banner styie */
 .banner-container{
@@ -36,8 +48,6 @@
     font-weight: 800;
 }
 .banner-content p{
-    font-size: 16px;
-    font-weight: 400;
     padding: 15px;
     margin: 30px 30px;
 }
@@ -52,12 +62,12 @@
     
 }
 
-/* section1 why web development */
+/* section 1 start */
 .section1-container{
     width: 1150px;
     height: 1400px;
     margin: 0 auto;
-    margin-top: 50px;
+    margin-top: 100px;
     border-radius: 20px;
     background-color: rgba( 13 ,19,33,0.02);
     padding: 20px 30px;
@@ -91,11 +101,6 @@
     font-weight: 700px;
     color: rgba(13, 19, 33, 0.70);
 }
-.sec1-body-describtion {
-    font-size: 16px;
-    font-weight: 400px;
-    color: #0D1321;
-}
 .sec1-body-btn {
     height: 50px;
     width: 170px;
@@ -108,8 +113,9 @@
 /* video content start   */
 .section2-conteiner{
     width: 1140px;
-    height: 730px;
+    height: 800px;
     margin: 0 auto;
+    margin-top: 100px;
 }
 .video-content-heading {
     width: 850px;
@@ -123,27 +129,76 @@
     font-weight: 800px;
     margin: 0 auto; 
 }
-.video-content-heading-describtion {
-    font-size: 16px;
-    font-weight: 400px ;
-    margin-bottom: 0;
-}
 .video-content-video {
-    width: 850px;
-    height: 500px;
-    margin: 0 auto;
+    width: 1150px;
+    height: 660px;
+    margin: auto;
     margin-top: 40px;
     background-color: ffffff;
     border: 1px solid rgba(13, 19, 33, 0.10);
     border-radius: 10px;
-
-
 }
 iframe{
-    width: 810px;
-    height: 455px;
+    width: 1100px;
+    height: 620px;
     border: 2px solid black;
     border-radius: 10px;
-    margin: 0 auto;
+    margin-left: 20px;
     margin-top: 20px;
+}
+
+/* video content end  */
+
+/* my next terget is start  */
+.section3-container {
+    width: 1140px;
+    height: 500px;
+    margin: 0 auto;
+    margin-top: 100px;
+    border: 2px solid green;
+
+}
+.target-content-heading {
+    width: 850px;
+    height: 110px;
+    text-align: center;
+    margin: 0 auto;
+    font-family: "Azeret Mono", monospace;
+}
+.target-content-heading-title {
+    font-size: 32px;
+    font-weight: 800px;
+    margin: 0 auto; 
+}
+.target-content-body {
+    width: 1140px;
+    height: 350px;
+    margin: 0 auto;
+    margin-top: 50px;
+    display: flex;
+}
+
+.target-content-body-part1 {
+    width: 290px;
+    height: 180px;
+    margin: 0 auto;
+    border-radius: 16px;
+    background-color: rgba(255, 76, 30, 0.05);
+    padding: 40px;
+}
+.target-content-body-part2 {
+    width: 290px;
+    height: 180px;
+    margin: 0 auto;
+    border-radius: 16px;
+    background-color:rgba(0, 76, 232, 0.05);
+    padding: 40px;
+}
+.target-content-body-part3 {
+    width:290px;
+    height: 180px;
+    margin: 0 auto;
+    border-radius: 16px;
+    background-color:rgba(255, 223, 0, 0.05);
+    padding: 40px;
 }
