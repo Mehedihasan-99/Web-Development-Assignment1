@@ -247,3 +247,32 @@ iframe{
     font-weight: 600px;
 
 }
+
+/* footer  */
+.footer{
+    width: 1440px;
+    height: 100px;
+    margin: 0 auto;
+    margin-top: 100px;
+    background-color: rgba(13, 19, 33, 0.03);
+    display: flex;
+    
+}
+.footer-content{
+    width: 1140px;
+    height: 40px;
+    margin:  auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.footer-text {
+    font-size: 20px;
+    font-weight: 600px;
+    margin: auto 30px;
+    margin-left: 10px;
+}
+.footer-connect{
+    margin-top: 20px;
+    margin-right: 10px;
+}
