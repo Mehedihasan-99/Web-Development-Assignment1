@@ -103,3 +103,47 @@
     font-weight: 600px;
     color: #0D1321;
 }
+/* section 1 end */
+
+/* video content start   */
+.section2-conteiner{
+    width: 1140px;
+    height: 730px;
+    margin: 0 auto;
+}
+.video-content-heading {
+    width: 850px;
+    height: 110px;
+    text-align: center;
+    margin: 0 auto;
+    font-family: "Azeret Mono", monospace;
+}
+.video-content-heading-title {
+    font-size: 32px;
+    font-weight: 800px;
+    margin: 0 auto; 
+}
+.video-content-heading-describtion {
+    font-size: 16px;
+    font-weight: 400px ;
+    margin-bottom: 0;
+}
+.video-content-video {
+    width: 850px;
+    height: 500px;
+    margin: 0 auto;
+    margin-top: 40px;
+    background-color: ffffff;
+    border: 1px solid rgba(13, 19, 33, 0.10);
+    border-radius: 10px;
+
+
+}
+iframe{
+    width: 810px;
+    height: 455px;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
